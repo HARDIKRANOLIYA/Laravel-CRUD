@@ -1,0 +1,23 @@
+.gallery{
+    height: 270px;
+    opacity: 0.5;
+}
+.gallery:hover {
+    opacity: 1.0;
+  }
+
+.details{
+    background-image: linear-gradient(to bottom right,rgb(193, 123, 171),rgb(194, 216, 75));
+    font-weight: 800;
+    text-align: center;
+    font-family:monospace;
+    font-size: x-large;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {background-image: linear-gradient(to bottom right,rgb(193, 123, 171),rgb(194, 216, 75));}
+    to {background-image: linear-gradient(to bottom right,rgb(38, 0, 61),rgb(155, 12, 244));}
+  }
